@@ -8,10 +8,21 @@
 */
 
 // Add your code right below, good luck!
+firstName = "Carlos"
+lastName = "Stevenson"
 
+fullName = firstName + " " + lastName
 
+thisYear = 1965
+birthYear = 1947
 
+age = thisYear - birthYear
 
+greeting_alt = `Hello! My name is ${fullName} and I am ${age} years old.` // different verison using enhanced strings(?)
+greeting = "Hello! My name is " + fullName + " and I am " + age + " years old."
+
+console.log(greeting_alt)
+console.log(greeting)
 
 // Do not change this
 module.exports = {
